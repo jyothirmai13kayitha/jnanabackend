@@ -1,0 +1,27 @@
+{
+  "name": "jnanabackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "aboutus1.js",
+  "scripts": {
+    "start": "node aboutus1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnanapro/Project.git"
+  },
+  "keywords": [
+    "node",
+    "jnana"
+  ],
+  "author": "mahi rastogi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnanapro/Project/issues"
+  },
+  "homepage": "https://github.com/jnanapro/Project#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

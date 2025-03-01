@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Types - E-Commerce</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Choose Your Drawing Surface</h1>
+    <p>Select a surface to draw on!</p>
+  </header>
+
+  <section id="canvas-selection">
+    <button onclick="changeCanvas('paper')">Paper</button>
+    <button onclick="changeCanvas('board')">Board</button>
+    <button onclick="changeCanvas('wall')">Wall</button>
+    <button onclick="changeCanvas('canvasBoard')">Canvas Board</button>
+    <button onclick="changeCanvas('fabric')">Fabric</button>
+    <button onclick="changeCanvas('digitalCanvas')">Digital Canvas</button>
+  </section>
+
+  <section id="drawing-section">
+    <canvas id="drawingCanvas" width="600" height="400"></canvas>
+    <button onclick="clearCanvas()">Clear Canvas</button>
+    <button onclick="saveCanvas()">Save Drawing</button>
+  </section>
+
+  <script src="drawing.js"></script>
+</body>
+</html>
